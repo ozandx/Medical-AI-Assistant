@@ -50,7 +50,7 @@ Medical-AI-Assistant/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/medical-ai-assistant.git
+git clone https://github.com/ozandx/medical-ai-assistant.git
 
 cd medical-ai-assistant
 ```
