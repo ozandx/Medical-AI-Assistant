@@ -17,7 +17,7 @@ genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 generation_config = {
     "temperature": 0.3,
     "top_p": 0.9,
-    "max_output_tokens": 4096,
+    "max_output_tokens": 65536,
 }
 
 SYSTEM_PROMPT = """ 
