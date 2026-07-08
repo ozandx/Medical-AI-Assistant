@@ -10,9 +10,7 @@ from google.generativeai.types import HarmCategory, HarmBlockThreshold
 # CONFIGURATION
 # =====================================================
 
-load_dotenv()
-
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 
 generation_config = {
     "temperature": 0.3,
